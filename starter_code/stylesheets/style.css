@@ -4,4 +4,125 @@ button-purple: #192592
 main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
-*/
+
+/* reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    margin: 0;
+}
+
+nav {
+    position: relative;
+    display: flex;
+}
+
+ul li {
+    display: none;
+}
+
+img {
+    max-width: 25%;
+    padding-left: 2rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    row-gap: 10px;
+    text-align: center;
+    margin: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #d1d1d1;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    row-gap: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 2rem 0;
+}
+
+.text1 {
+    order: 2;
+    text-align: left;
+    margin: 1rem 0;
+}
+
+header img {
+    order: 4;
+    max-width: 100%;
+}
+
+p {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+
+/* Button */
+
+button {
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 0;
+    margin: 2rem 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.blue {
+    background-color: #192592;
+    color: white;
+    border: none;
+}
+
+.white {
+    background-color: white;
+    color: #192592;
+    border: 1px solid #192592;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #d1d1d1;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    row-gap: 10px;
+    text-align: center;
+}
+
+main img {
+    min-width: 70%;
+    margin: 3rem;
+}
+
+@media (min-width: 767px) {}
+
+@media (min-width: 960px) {}
+
+@media (min-width: 1200px) {}
